@@ -2,8 +2,15 @@
 		# BASE STYLES
 \*------------------------------------*/
 
-/* import Fira Sans font */
-@import url('assets/fonts/*');
+/* import Fonts */
+@font-face {
+  font-family: 'FiraCode';
+  src: url(assets/fonts/FiraCode-Medium.ttf);
+}
+@font-face {
+  font-family: 'FiraCode-Bold';
+  src: url(assets/fonts/FiraCode-Bold.ttf);
+}
 
 /* reset some style */
 *,
@@ -30,7 +37,7 @@ body * {
 /* Typography */
 
 body {
-  font-family: 'Fira Code', sans-serif;
+  font-family: 'FiraCode', sans-serif;
   font-size: 0.9rem;
   line-height: 2rem;
   scroll-behavior: smooth;
@@ -124,7 +131,7 @@ nav ul li {
 main {
   width: 80%;
   margin: 0 auto;
-  padding: 5.5rem 0;
+  padding: 5rem 0;
 }
 
 /* Intro section */
@@ -132,7 +139,6 @@ main {
   text-align: center;
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 3rem;
 }
 .profile-pic {
   width: 30%;
@@ -163,7 +169,7 @@ main {
 
 /* Main content */
 .main-content section {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .project-card {
@@ -241,7 +247,9 @@ footer section {
   }
   .intro-section {
     text-align: left;
+    padding: 3rem 0;
   }
+
   .call-to-action {
     display: none;
   }
