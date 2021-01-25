@@ -83,7 +83,7 @@ function watchTask() {
   watch(
     files.imagePath + files.htmlPath + files.cssPath + files.jsPath,
 
-    series(htmlTask, parallel(cssTask, jsTask), cacheBustTask, sitemapTask)
+    series(htmlTask, parallel(cssTask, jsTask), sitemapTask)
   );
 }
 const build = series(
@@ -95,9 +95,6 @@ const build = series(
   sitemapTask
 );
 
-// Export the default Gulp task so it can be run
-// Runs the css and js tasks simultaneously
-// then runs cacheBust, then watch task
 exports.clean = clean;
 exports.image = imageTask;
 exports.html = htmlTask;
