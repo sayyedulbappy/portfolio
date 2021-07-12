@@ -5,12 +5,12 @@
 /* import Fonts */
 @font-face {
   font-family: "FiraCode";
-  src: url("assets/fonts/FiraCode-Medium.ttf");
+  src: url("../assets/fonts/FiraCode-Medium.ttf");
   font-display: swap;
 }
 @font-face {
   font-family: "FiraCode-Bold";
-  src: url("assets/fonts/FiraCode-Bold.ttf");
+  src: url("../assets/fonts/FiraCode-Bold.ttf");
   font-display: swap;
 }
 
