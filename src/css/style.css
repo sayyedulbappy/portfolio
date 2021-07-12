@@ -4,13 +4,13 @@
 
 /* import Fonts */
 @font-face {
-  font-family: 'FiraCode';
-  src: url(assets/fonts/FiraCode-Medium.ttf);
+  font-family: "FiraCode";
+  src: url("assets/fonts/FiraCode-Medium.ttf");
   font-display: swap;
 }
 @font-face {
-  font-family: 'FiraCode-Bold';
-  src: url(assets/fonts/FiraCode-Bold.ttf);
+  font-family: "FiraCode-Bold";
+  src: url("assets/fonts/FiraCode-Bold.ttf");
   font-display: swap;
 }
 
@@ -39,7 +39,7 @@ body * {
 /* Typography */
 
 body {
-  font-family: 'FiraCode', sans-serif;
+  font-family: "FiraCode", sans-serif;
   font-size: 0.9rem;
   line-height: 2rem;
   scroll-behavior: smooth;
@@ -102,7 +102,7 @@ nav ul li {
 }
 .menu-btn__burger::before,
 .menu-btn__burger::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1.5rem;
   height: 0.3rem;

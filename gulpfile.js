@@ -51,7 +51,7 @@ function cssTask() {
 function jsTask() {
   return src(files.jsPath)
     .pipe(sourcemaps.init())
-    .pipe(concat('scripts.js'))
+    .pipe(concat('script.js'))
     .pipe(uglify())
     .pipe(sourcemaps.write('.'))
     .pipe(dest('build/js'));
